@@ -1,1 +1,13 @@
 site_name: Coding Questions and Exercies
+site_url: http://127.0.0.1:8000/
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Exercises: elementary_programming/exercises.md
