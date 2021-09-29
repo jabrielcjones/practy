@@ -13,9 +13,7 @@ cd practice/javascript
 ### Run `test.js`
 
 ```bash
-echo "console.log('Test Successful!')" > test.js
-
-echo "alert('Test Successful!')" >> test.js
+echo "console.log('Test Successful!')\nalert('Test Successful!')" > test.js
 
 echo '<head><script src="test.js" charset="utf-8"></script></head><body></body>' > index.html
 
