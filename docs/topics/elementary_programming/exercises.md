@@ -14,9 +14,9 @@ Programming is Fun
   <summary>Python Solution</summary>
 
 ```py linenums="1"
-print('Welcome to Python')
-print('Welcome to Computer Science')
-print('Programming is Fun')
+print('Welcome to Python!')
+print('Welcome to Computer Science!')
+print('Programming is Fun!')
 ```
 
 </details>
@@ -25,12 +25,14 @@ print('Programming is Fun')
   <summary>JavaScript Solution</summary>
 
 ```js linenums="1"
-console.log('Welcome to JavaScript')
-console.log('Welcome to Computer Science')
-console.log('Programming is Fun')
+console.log('Welcome to JavaScript!')
+console.log('Welcome to Computer Science!')
+console.log('Programming is Fun!')
 ```
 
 </details>
+
+---
 
 ## Compute the Area of a Circle
 

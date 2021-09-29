@@ -2,22 +2,6 @@
 
 ## MacOS
 
-### Install Homebrew
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew update
-
-brew doctor
-```
-
-### Install Node
-
-```bash
-brew install node
-```
-
 ### Create Working Directory
 
 ```bash
@@ -29,7 +13,13 @@ cd practice/javascript
 ### Run `test.js`
 
 ```bash
-echo "print('Test Successful!')" > test.js
+echo "console.log('Test Successful!')" > test.js
 
-node test.js
+echo "alert('Test Successful!')" >> test.js
+
+echo '<head><script src="test.js" charset="utf-8"></script></head><body></body>' > index.html
+
+open -a "Google Chrome" index.html
 ```
+
+Open `Developer Tools` - OPTION + COMMAND + J
