@@ -56,6 +56,8 @@ num1 = 34
 num2 = 2
 
 total = num1 + num2
+
+# identifiers: num1, num2, total
 ```
 
 </details>
