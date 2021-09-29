@@ -25,8 +25,13 @@ print('Programming is Fun!')
   <summary>JavaScript Solution</summary>
 
 ```js linenums="1"
+alert('Welcome to JavaScript!')
 console.log('Welcome to JavaScript!')
+
+alert('Welcome to Computer Science!')
 console.log('Welcome to Computer Science!')
+
+alert('Programming is Fun!')
 console.log('Programming is Fun!')
 ```
 
@@ -81,10 +86,26 @@ print('The area for the circle of radius {0} is {1}'.format(radius, area))
 <details>
   <summary>JavaScript Solution</summary>
 
+Solution #1
+
 ```js linenums="1"
-console.log('Welcome to JavaScript')
-console.log('Welcome to Computer Science')
-console.log('Programming is Fun')
+let radius = prompt('Enter the radius of a circle: ')
+
+let area = radius * radius * 3.14159
+
+alert(`The area for the circle of radius ${radius} is ${area}`)
+console.log(`The area for the circle of radius ${radius} is ${area}`)
+```
+
+Solution #2
+
+```js linenums="1"
+let radius = prompt('Enter the radius of a circle: ')
+
+let area = Math.pow(radius, 2) * Math.PI
+
+alert(`The area for the circle of radius ${radius} is ${area}`)
+console.log(`The area for the circle of radius ${radius} is ${area}`)
 ```
 
 </details>
