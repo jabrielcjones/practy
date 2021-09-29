@@ -1,4 +1,4 @@
-# Coding Practice Library
+# Practy
 
 A collection of coding questions and exercises
 
@@ -8,6 +8,11 @@ A collection of coding questions and exercises
 * javascript
 
 ## Installation and Deployment
+
+Prequisites:
+
+* Python 3
+* Python Module: virtualenv
 
 ```bash
 python -m venv venv

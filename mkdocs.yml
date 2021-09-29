@@ -1,4 +1,4 @@
-site_name: Coding Questions and Exercies
+site_name: Practy
 site_url: http://127.0.0.1:8000/
 
 theme:
@@ -7,7 +7,14 @@ theme:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - admonition
 
 nav:
   - Home: index.md
-  - Exercises: elementary_programming/exercises.md
+  - Running Programs:
+    - Running Python: languages/running_python.md
+    - Running JavaScript: languages/running_javascript.md
+  - Topics:
+    - Elementary Programming:
+      - Elementary Programming Exercises: topics/elementary_programming/exercises.md
+      - Elementary Programming Questions: topics/elementary_programming/questions.md
