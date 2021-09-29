@@ -49,7 +49,14 @@ parseInt('javascript', 10)
 <details>
   <summary>Answer</summary>
 
-<br>The names used for elements in a program (e.g. variable names, function names)
+```linenums="1"
+# The names used for elements in a program (e.g. variable names, function names)
+
+num1 = 34
+num2 = 2
+
+total = num1 + num2
+```
 
 </details>
 
