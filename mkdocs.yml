@@ -21,3 +21,4 @@ nav:
     - Math, Strings, and Objects:
       - Math, Strings, and Objects Exercises: topics/math_strings_and_objects/exercises.md
       - Math, Strings, and Objects Questions: topics/math_strings_and_objects/questions.md
+  - Bibliography: bibliography.md
