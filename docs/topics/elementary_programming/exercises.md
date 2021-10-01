@@ -11,7 +11,7 @@ Programming is Fun
 ```
 
 <details>
-  <summary>Python Solution</summary>
+  <summary>Python Solution:</summary>
 
 ```py linenums="1"
 print('Welcome to Python!')
@@ -22,7 +22,7 @@ print('Programming is Fun!')
 </details>
 
 <details>
-  <summary>JavaScript Solution</summary>
+  <summary>JavaScript Solution:</summary>
 
 ```js linenums="1"
 alert('Welcome to JavaScript!')
@@ -33,6 +33,17 @@ console.log('Welcome to Computer Science!')
 
 alert('Programming is Fun!')
 console.log('Programming is Fun!')
+```
+
+</details>
+
+<details>
+  <summary>C# Solution:</summary>
+
+```cs linenums="1"
+Console.WriteLine("Welcome to C#!");
+Console.WriteLine("Welcome to COmputer Science!");
+Console.WriteLine("Programming is Fun!");
 ```
 
 </details>
@@ -57,7 +68,7 @@ PI = 3.14159
     Try using a math library to get the value of PI
 
 <details>
-  <summary>Python Solution</summary>
+  <summary>Python Solution:</summary>
 
 Solution #1
 
@@ -66,7 +77,7 @@ radius = input('Enter the radius of a circle: ')
 
 area = radius * radius * 3.14159
 
-print('The area for the circle of radius {0} is {1}'.format(radius, area))
+print(f'The area for the circle of radius {radius} is {area}')
 ```
 
 Solution #2
@@ -78,13 +89,13 @@ radius = input('Enter the radius of a circle: ')
 
 area = pow(radius, 2) * math.pi
 
-print('The area for the circle of radius {0} is {1}'.format(radius, area))
+print(f'The area for the circle of radius {radius} is {area}')
 ```
 
 </details>
 
 <details>
-  <summary>JavaScript Solution</summary>
+  <summary>JavaScript Solution:</summary>
 
 Solution #1
 
@@ -106,6 +117,44 @@ let area = Math.pow(radius, 2) * Math.PI
 
 alert(`The area for the circle of radius ${radius} is ${area}`)
 console.log(`The area for the circle of radius ${radius} is ${area}`)
+```
+
+</details>
+
+<details>
+	<summary>C# Solution:</summary>
+
+Solution #1
+
+```cs linenums="1"
+string input;
+int radius;
+
+Console.WriteLine("Enter the radius of a circle: ");
+
+input = Console.ReadLine();
+
+radius = Convert.ToInt32(input);
+double area = radius * radius * 3.14159;
+
+Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
+```
+
+Solution #2
+
+```cs linenums="1"
+string input;
+int radius;
+
+Console.WriteLine("Enter the Radius of a Circle: ");
+
+input = Console.ReadLine();
+
+radius = Convert.ToInt32(input);
+
+double area = Math.Pow(radius, 2.0) * Math.PI;
+
+Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
 ```
 
 </details>
