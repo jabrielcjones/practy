@@ -23,14 +23,20 @@ Prequisites:
 * Python Module: virtualenv
 
 ```bash
+
+# Create a python virtual environment
 python -m venv venv
 
+# Activate the python virtual environment
 . venv/bin/activate
 
+# Upgrade Pip
 pip install --upgrade pip
 
+# Install Practy dependencies
 pip install -r requirements.txt
 
+# Deploy Practy
 mkdocs serve
 ```
 
