@@ -249,3 +249,85 @@ console.log(`Your birthday is ${day}!`)
 </details>
 
 ---
+
+## Subtraction Quiz
+
+Write a program that:
+
+* Generates 2 random numbers
+* Prompts the user for the sum
+* Prints the result
+
+```
+{ADDITIONAL INFO}
+```
+
+<details>
+  <summary>Python Solution:</summary>
+
+Solution 1
+
+```py linenums="1"
+# Solution
+```
+
+Solution N
+
+```py linenums="1"
+# Solution
+```
+
+</details>
+
+<details>
+  <summary>JavaScript Solution:</summary>
+
+Solution 1
+
+```js linenums="1"
+// Solution
+```
+
+Solution N
+
+```js linenums="1"
+// Solution
+```
+
+</details>
+
+<details>
+  <summary>C# Solution:</summary>
+
+Solution 1
+
+```csharp linenums="1"
+// Solution
+```
+
+Solution N
+
+```csharp linenums="1"
+// Solution
+```
+
+</details>
+
+<details>
+  <summary>Java Solution:</summary>
+
+Solution 1
+
+```java linenums="1"
+// Solution
+```
+
+Solution N
+
+```java linenums="1"
+// Solution
+```
+
+</details>
+
+---
