@@ -3,7 +3,6 @@
 ## Exercise Template
 
 Write a program that X:
-
 * PROGRAM CAPABILITY 1
 * PROGRAM CAPABILITY 2
 * PROGRAM CAPABILITY N
