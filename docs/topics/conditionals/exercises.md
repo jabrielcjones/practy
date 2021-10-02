@@ -8,7 +8,7 @@ Write a program that:
 * Prompts the user for the sum
 * Prints the result
 
-```
+```text
 # Example 1
 What is 3 + 5? 9
 3 + 5 = 9 is False
@@ -60,7 +60,7 @@ Write a program that guesses a users birthday by:
 * Updating the birthday based on the user's answer
 * Printing the birthday
 
-```
+```text
 # If birthday in Set 1, add 1 to birthday
 
 # Set 1
@@ -258,7 +258,7 @@ Write a program that:
 * Prompts the user for the sum
 * Prints the result
 
-```
+```text
 {ADDITIONAL INFO}
 ```
 
