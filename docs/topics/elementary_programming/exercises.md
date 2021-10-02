@@ -4,7 +4,7 @@
 
 Write a program that displays:
 
-```
+```text
 Welcome to {YOUR PROG. LANGUAGE}
 Welcome to Computer Science
 Programming is Fun
@@ -58,7 +58,7 @@ Write a program that:
 * Uses it to compute the area of a circle
 * Prints the area to the screen.
 
-```
+```text
 area = radius * PI
 
 PI = 3.14159
@@ -122,7 +122,7 @@ console.log(`The area for the circle of radius ${radius} is ${area}`)
 </details>
 
 <details>
-	<summary>C# Solution:</summary>
+  <summary>C# Solution:</summary>
 
 Solution #1
 

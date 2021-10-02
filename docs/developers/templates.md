@@ -8,7 +8,7 @@ Write a program that X:
 * PROGRAM CAPABILITY 2
 * PROGRAM CAPABILITY N
 
-```
+```text
 {ADDITIONAL INFO}
 ```
 

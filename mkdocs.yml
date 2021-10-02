@@ -27,6 +27,6 @@ nav:
     - Conditionals:
       - Conditionals Exercises: topics/conditionals/exercises.md
       - Conditionals Questions: topics/conditionals/questions.md
-    - Developers:
-      - Templates: developers/templates.md
+  - Developers:
+    - Templates: developers/templates.md
   - Bibliography: bibliography.md
