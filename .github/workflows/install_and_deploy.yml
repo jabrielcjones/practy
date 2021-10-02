@@ -35,8 +35,8 @@ jobs:
       - name: Lint Practy Markdown
         uses: docker://avtodev/markdown-lint:v1 # fastest way
         with:
-          files: '**/*.md'
-          config_file: ./.markdownlint.yaml
+          args: '**/*.md'
+          config: ./.markdownlint.yaml
 
       # Runs a single command using the runners shell
       # - name: Run a one-line script
