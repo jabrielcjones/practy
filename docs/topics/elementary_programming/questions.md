@@ -1,6 +1,6 @@
 # Elementary Programming Questions
 
-### What function can you use to get input from a user?
+## What function can you use to get input from a user?
 
 <details>
   <summary>Python Answer</summary>
@@ -22,7 +22,7 @@ prompt('Please provide input: ')
 
 ---
 
-### What function can you use to convert a string into a numerical value?
+## What function can you use to convert a string into a numerical value?
 
 <details>
   <summary>Python Answer</summary>
@@ -44,7 +44,7 @@ parseInt('javascript', 10)
 
 ---
 
-### What are identifiers?
+## What are identifiers?
 
 <details>
   <summary>Answer</summary>
@@ -64,7 +64,7 @@ total = num1 + num2
 
 ---
 
-### What symbol is used as the assignment operator?
+## What symbol is used as the assignment operator?
 
 <details>
   <summary>Answer</summary>
