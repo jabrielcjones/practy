@@ -17,6 +17,7 @@ nav:
   - Running Programs:
     - Running Python: languages/running_python.md
     - Running JavaScript: languages/running_javascript.md
+    - Running C Sharp: languages/running_csharp.md
   - Exercises and Questions:
     - Elementary Programming:
       - Elementary Programming Exercises: topics/elementary_programming/exercises.md
