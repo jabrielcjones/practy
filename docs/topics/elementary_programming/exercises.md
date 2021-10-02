@@ -40,7 +40,7 @@ console.log('Programming is Fun!')
 <details>
   <summary>C# Solution:</summary>
 
-```cs linenums="1"
+```csharp linenums="1"
 Console.WriteLine("Welcome to C#!");
 Console.WriteLine("Welcome to COmputer Science!");
 Console.WriteLine("Programming is Fun!");
@@ -126,7 +126,7 @@ console.log(`The area for the circle of radius ${radius} is ${area}`)
 
 Solution #1
 
-```cs linenums="1"
+```csharp linenums="1"
 string input;
 int radius;
 
@@ -142,7 +142,7 @@ Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area)
 
 Solution #2
 
-```cs linenums="1"
+```csharp linenums="1"
 string input;
 int radius;
 
