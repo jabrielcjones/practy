@@ -40,10 +40,28 @@ console.log('Programming is Fun!')
 <details>
   <summary>C# Solution:</summary>
 
+<<<<<<< HEAD
 ```csharp linenums="1"
+using System;  
+  
+namespace Test  
+{  
+   class TestClass  
+   {  
+     static void Main(string[] args)  
+      {  
+          Console.WriteLine("Welcome to C#!");
+		  Console.WriteLine("Welcome to Computer Science!");
+		  Console.WriteLine("Programming is Fun!");
+      }  
+   }  
+}
+=======
+```cs linenums="1"
 Console.WriteLine("Welcome to C#!");
 Console.WriteLine("Welcome to COmputer Science!");
 Console.WriteLine("Programming is Fun!");
+>>>>>>> 778f466f23b851fe8aba166681c0a7506dc2af91
 ```
 
 </details>
@@ -122,11 +140,40 @@ console.log(`The area for the circle of radius ${radius} is ${area}`)
 </details>
 
 <details>
-  <summary>C# Solution:</summary>
+<<<<<<< HEAD
+	<summary>C# Solution:</summary>
 
 Solution #1
 
 ```csharp linenums="1"
+using System;  
+  
+namespace Test  
+{  
+   class TestClass  
+   {  
+     static void Main(string[] args)  
+      {  
+        string input;
+		int radius;
+
+		Console.WriteLine("Enter the radius of a circle: ");
+
+		input = Console.ReadLine();
+
+		radius = Convert.ToInt32(input);
+		double area = radius * radius * 3.14159;
+
+		Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
+      }  
+   }  
+}
+=======
+  <summary>C# Solution:</summary>
+
+Solution #1
+
+```cs linenums="1"
 string input;
 int radius;
 
@@ -138,11 +185,38 @@ radius = Convert.ToInt32(input);
 double area = radius * radius * 3.14159;
 
 Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
+>>>>>>> 778f466f23b851fe8aba166681c0a7506dc2af91
 ```
 
 Solution #2
 
+<<<<<<< HEAD
 ```csharp linenums="1"
+using System;  
+  
+namespace Test  
+{  
+   class TestClass  
+   {  
+     static void Main(string[] args)  
+      {  
+        string input;
+		int radius;
+
+		Console.WriteLine("Enter the Radius of a Circle: ");
+
+		input = Console.ReadLine();
+
+		radius = Convert.ToInt32(input);
+
+		double area = Math.Pow(radius, 2.0) * Math.PI;
+
+		Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
+      }  
+   }  
+}
+=======
+```cs linenums="1"
 string input;
 int radius;
 
@@ -155,6 +229,7 @@ radius = Convert.ToInt32(input);
 double area = Math.Pow(radius, 2.0) * Math.PI;
 
 Console.WriteLine("The area for the circle of radius {0} is {1}.", radius, area);
+>>>>>>> 778f466f23b851fe8aba166681c0a7506dc2af91
 ```
 
 </details>
