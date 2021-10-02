@@ -2,7 +2,7 @@
 
 Practy is an open-source collection of programming questions and exercises. The questions and exercises are sourced from textbooks, and they are ordered from basic to advanced.
 
-Practy is written in markdown, deployed by MKDocs, and published on Github. It currently supports exercises in Python and JavaScript.
+Practy is written in markdown, deployed by MKDocs, and published on Github.
 
 The goal of Practy is to provide a guided, hands-on learning experience by:
 
@@ -12,8 +12,10 @@ The goal of Practy is to provide a guided, hands-on learning experience by:
 
 ## Supported Languages
 
-* python
-* javascript
+* Python
+* JavaScript
+* C#
+* Java
 
 ## Installation and Deployment
 
