@@ -169,7 +169,7 @@ answer = int(input(question5))
 if answer == 1:
     day += 16
 
-print('\nYour birthday is {}!'.format(day))
+print('\nYour birthday is {day}!')
 ```
 
 </details>
