@@ -6,6 +6,24 @@ use_directory_urls: false
 
 theme:
   name: material
+  font:
+    code: Ubuntu Mono
+    text: Balsamiq Sans
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: teal
+      accent: yellow
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: teal
+      accent: deep orange
 
 markdown_extensions:
   - pymdownx.highlight
