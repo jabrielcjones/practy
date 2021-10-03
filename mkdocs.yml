@@ -28,5 +28,7 @@ nav:
       - Conditionals Exercises: topics/conditionals/exercises.md
       - Conditionals Questions: topics/conditionals/questions.md
   - Developers:
+    - Dev Env Setup: developers/dev_setup_guide.md
     - Templates: developers/templates.md
+    - Markdown Linting Issues: developers/markdown_linting_issues.md
   - Bibliography: bibliography.md
