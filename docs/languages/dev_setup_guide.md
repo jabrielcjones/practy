@@ -37,23 +37,23 @@ softwareupdate --all --install --force
 open -a "About This Mac"
 ```
 
-!!! IMPORTANT
-    If your chip is "M1", run the following:
-    ```bash
-    softwareupdate --install-rosetta
+    !!! IMPORTANT
+        If your chip is "M1", run the following:
+        ```bash
+        softwareupdate --install-rosetta
 
-    cd && sudo mkdir /opt/homebrew && sudo curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C /opt/homebrew
+        cd && sudo mkdir /opt/homebrew && sudo curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C /opt/homebrew
 
-    arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-    alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
+        alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
 
-    PATH=/opt/homebrew/bin:$PATH
+        PATH=/opt/homebrew/bin:$PATH
 
-    brew update
+        brew update
 
-    brew doctor
-    ```
+        brew doctor
+        ```
 
 * Install Homebrew (ONLY IF CHIP IS NOT "M1")
 ```bash
@@ -71,16 +71,16 @@ brew install zsh
 chsh -s /usr/local/bin/zsh
 ```
 
-!!! HELP
-    If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Download and Install oh-my-zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-!!! HELP
-    If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Configure Zsh
 ```zsh
@@ -128,16 +128,16 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-!!! HELP
-    If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Download and Install oh-my-zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-!!! HELP
-    If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Configure Zsh
 ```zsh
