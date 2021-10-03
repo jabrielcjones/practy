@@ -1,6 +1,6 @@
 # Running C Sharp
 
-## WSL - 21.04
+## WSL - Ubuntu 21.04
 
 ### Add Microsoft Package repo
 
