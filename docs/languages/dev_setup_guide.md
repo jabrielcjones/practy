@@ -25,28 +25,43 @@ Download and install 1 of the following:
 
 * Open iterm2
 
+* Install Dev Tools
+```bash
+sudo xcode-select --install
+
+softwareupdate --all --install --force
+```
+
 * Check MacBook Chip
 ```bash
 open -a "About This Mac"
 ```
 
-!!! IMPORTANT
-    If your chip is "M1", run the following:
-    ```bash
-    softwareupdate --install-rosetta
+    !!! IMPORTANT
+        If your chip is "M1", run the following:
+        ```bash
+        softwareupdate --install-rosetta
 
-    cd && sudo mkdir /opt/homebrew && sudo curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C /opt/homebrew
+        cd && sudo mkdir /opt/homebrew && sudo curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C /opt/homebrew
 
-    arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-    alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
+        alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
 
-    PATH=/opt/homebrew/bin:$PATH
-    ```
+        PATH=/opt/homebrew/bin:$PATH
+
+        brew update
+
+        brew doctor
+        ```
 
 * Install Homebrew (ONLY IF CHIP IS NOT "M1")
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew update
+
+brew doctor
 ```
 
 * Install zsh
@@ -56,16 +71,16 @@ brew install zsh
 chsh -s /usr/local/bin/zsh
 ```
 
-!!! HELP
-    If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Download and Install oh-my-zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-!!! HELP
-    If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Configure Zsh
 ```zsh
@@ -92,7 +107,7 @@ source ~/.zshrc
 bzsh
 ```
 
-## WSL
+## WSL - Ubuntu 21.04
 
 * [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/setup/environment)
 
@@ -113,16 +128,16 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-!!! HELP
-    If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Download and Install oh-my-zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-!!! HELP
-    If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    !!! HELP
+        If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 * Configure Zsh
 ```zsh

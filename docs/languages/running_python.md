@@ -2,17 +2,10 @@
 
 ## MacOS
 
-1. Install Homebrew
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew update
-
-brew doctor
-```
-
 1. Install Pyenv
 ```bash
+softwareupdate --all --install --force
+
 brew install openssl readline sqlite3 xz zlib
 
 brew install pyenv
