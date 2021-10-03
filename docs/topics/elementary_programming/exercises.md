@@ -67,7 +67,7 @@ namespace Test
 
 Write a program that:
 
-* Displays the following message 5 times
+* displays the following message 5 times
 
 ```text
 Welcome to {YOUR PROG. LANGUAGE}
