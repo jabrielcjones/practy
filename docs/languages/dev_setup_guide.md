@@ -25,6 +25,13 @@ Download and install 1 of the following:
 
 * Open iterm2
 
+* Install Dev Tools
+```bash
+sudo xcode-select --install
+
+softwareupdate --all --install --force
+```
+
 * Check MacBook Chip
 ```bash
 open -a "About This Mac"
@@ -42,11 +49,19 @@ open -a "About This Mac"
     alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
 
     PATH=/opt/homebrew/bin:$PATH
+
+    brew update
+
+    brew doctor
     ```
 
 * Install Homebrew (ONLY IF CHIP IS NOT "M1")
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew update
+
+brew doctor
 ```
 
 * Install zsh
@@ -92,7 +107,7 @@ source ~/.zshrc
 bzsh
 ```
 
-## WSL
+## WSL - Ubuntu 21.04
 
 * [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/setup/environment)
 
