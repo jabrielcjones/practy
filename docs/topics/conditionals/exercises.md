@@ -27,9 +27,9 @@ import random
 num1 = random.randint(0, 9)
 num2 = random.randint(0, 9)
 
-answer = int(input('What is {0} + {1}?  '.format(num1, num2)))
+answer = int(input(f'What is {num1} + {num2}? '))
 
-print('{0} + {1} = {2} is {3}'.format(num1, num2, answer, num1 + num2 == answer))
+print(f'{num1} + {num2} = {answer} is {num1 + num2 == answer}!')
 ```
 
 </details>
