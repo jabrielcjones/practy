@@ -69,7 +69,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 * Configure Zsh
 ```zsh
-echo export PATH='' >> ~/.zshrc
+echo "export PATH=''" >> ~/.zshrc
 
 echo path+=('/usr/local/bin') >> ~/.zshrc
 
