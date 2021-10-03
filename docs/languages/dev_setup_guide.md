@@ -91,3 +91,60 @@ source ~/.zshrc
 
 bzsh
 ```
+
+## WSL
+
+* [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/setup/environment)
+
+### Text Editor
+
+Download and install 1 of the following:
+
+* [Atom](https://atom.io/)
+* [Sublime Text](https://www.sublimetext.com/)
+* [VS Code](https://code.visualstudio.com/)
+
+### ZShell (zsh)
+
+* Install zsh
+```bash
+sudo apt install zsh
+
+chsh -s $(which zsh)
+```
+
+!!! HELP
+    If you run into issues, refer to [Installing Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+* Download and Install oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+!!! HELP
+    If you run into issues, refer to [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+* Configure Zsh
+```zsh
+echo "export PATH=''" >> ~/.zshrc
+
+echo path+=('/usr/local/bin') >> ~/.zshrc
+
+echo path+=('/usr/bin') >> ~/.zshrc
+
+echo path+=('/usr/sbin') >> ~/.zshrc
+
+echo path+=('/bin') >> ~/.zshrc
+
+echo "alias bzsh='cp ~/.zshrc ~/.zshrc.bak'" >> ~/.zshrc
+
+echo "alias rzsh='cp ~/.zshrc.bak ~/.zshrc'" >> ~/.zshrc
+
+echo "alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'" >> ~/.zshrc
+
+echo "path=('/opt/homebrew/bin' $path)"" >> ~/.zshrc
+
+source ~/.zshrc
+
+bzsh
+```
