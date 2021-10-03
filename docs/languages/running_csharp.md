@@ -2,8 +2,7 @@
 
 ## WSL - Ubuntu 21.04
 
-### Add Microsoft Package repo
-
+1. Add Microsoft Package repo
 ```bash
 wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 
@@ -12,8 +11,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 ```
 
-### Install .NET SDK & Runtime
-
+1. Install .NET SDK & Runtime
 ```bash
 sudo apt-get update
 
@@ -24,25 +22,22 @@ sudo apt-get install -y dotnet-sdk-5.0
 sudo apt-get install -y dotnet-runtime-5.0
 ```
 
-### Install Mono Complete
-
+1. Install Mono Complete
 ```bash
 sudo apt install mono-complete
 ```
 
-### Make the working directory.
-
+1. Make the working directory.
 ```bash
 mkdir practice && mkdir practice/c_sharp
 
 cd practice/c_sharp
 ```
 
-### Copy C Sharp code into `test.cs`
-
+1. Copy C Sharp code into `test.cs`
 ```csharp
 using System;  
-  
+
 namespace Test  
 {  
    class TestClass  
@@ -55,8 +50,7 @@ namespace Test
 }
 ```
 
-### Compile & Run `test.cs`
-
+1. Compile & Run `test.cs`
 ```bash
 mcs -out:test.exe test.cs
 

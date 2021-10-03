@@ -40,7 +40,6 @@ console.log('Programming is Fun!')
 <details>
   <summary>C# Solution:</summary>
 
-<<<<<<< HEAD
 ```csharp linenums="1"
 using System;  
 

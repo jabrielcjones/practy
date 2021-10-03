@@ -49,5 +49,4 @@ nav:
   - Developers:
     - Dev Env Setup: developers/dev_setup_guide.md
     - Templates: developers/templates.md
-    - Markdown Linting Issues: developers/markdown_linting_issues.md
   - Bibliography: bibliography.md

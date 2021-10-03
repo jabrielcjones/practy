@@ -2,8 +2,7 @@
 
 ## MacOS
 
-### Install Homebrew
-
+1. Install Homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -12,8 +11,7 @@ brew update
 brew doctor
 ```
 
-### Install Pyenv
-
+1. Install Pyenv
 ```bash
 brew install openssl readline sqlite3 xz zlib
 
@@ -28,14 +26,12 @@ echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### Install Python 3
-
+1. Install Python 3
 ```bash
 pyenv install 3.9.6
 ```
 
-### Create Working Directory
-
+1. Create Working Directory
 ```bash
 mkdir practice/python
 
@@ -44,8 +40,7 @@ cd practice/python
 pyenv local 3.9.6
 ```
 
-### Run `test.py`
-
+1. Run `test.py`
 ```bash
 echo "print('Test Successful!')" > test.py
 
