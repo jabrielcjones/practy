@@ -33,6 +33,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Running Programs:
+    - Dev Env Setup: languages/dev_setup_guide.md
     - Running Python: languages/running_python.md
     - Running JavaScript: languages/running_javascript.md
     - Running C Sharp: languages/running_csharp.md
@@ -47,6 +48,5 @@ nav:
       - Conditionals Exercises: topics/conditionals/exercises.md
       - Conditionals Questions: topics/conditionals/questions.md
   - Developers:
-    - Dev Env Setup: developers/dev_setup_guide.md
     - Templates: developers/templates.md
   - Bibliography: bibliography.md
