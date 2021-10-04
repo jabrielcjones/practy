@@ -107,7 +107,7 @@ source ~/.zshrc
 bzsh
 ```
 
-## WSL - Ubuntu 21.04
+## WSL (Windows) - Ubuntu 21.04
 
 * [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/setup/environment)
 
