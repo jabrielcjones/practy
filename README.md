@@ -17,7 +17,13 @@ The goal of Practy is to provide a guided, hands-on learning experience by:
 * C#
 * Java
 
-## Installation and Deployment
+## Using Practy
+
+### Remote Dev Environment
+
+[Visit Practy (dev)!](https://dev.d2w839m1wbzw.amplifyapp.com/)
+
+### Install and Deploy Locally
 
 Prequisites:
 
