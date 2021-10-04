@@ -19,7 +19,7 @@ The goal of Practy is to provide a guided, hands-on learning experience by:
 
 ## Using Practy
 
-### Dev Environment
+### Remote Dev Environment
 
 [Visit Practy (dev)!](https://dev.d2w839m1wbzw.amplifyapp.com/)
 
