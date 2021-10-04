@@ -63,7 +63,7 @@ namespace Test
 
 ---
 
-## Display a Message n Times
+## Display the Same Message n Times
 
 Write a program that:
 
@@ -88,6 +88,42 @@ namespace repeatStringXTimes
      {  
        string str = new StringBuilder("Welcome to C#! ".Length * 5).Insert(0, "Welcome to C#! ", 5).ToString();
        Console.WriteLine(str);
+     }  
+   }  
+}
+```
+
+</details>
+
+---
+
+## Display a Pattern
+
+Write a program that:
+
+* displays the following message as a pattern
+
+```text
+FUN
+```
+
+<details>
+  <summary>C# Solution:</summary>
+
+```csharp linenums="1"
+using System;  
+  
+namespace Fun  
+{  
+   class FunClass  
+   {  
+     static void Main(string[] args)  
+     {  
+       Console.WriteLine("FFFFFFF   U     U   NN    NN");
+       Console.WriteLine("FF        U     U   NNN   NN");
+       Console.WriteLine("FFFFFFF   U     U   NN N  NN");
+       Console.WriteLine("FF         U   U    NN  N NN");
+       Console.WriteLine("FF          UUU     NN   NNN");
      }  
    }  
 }
