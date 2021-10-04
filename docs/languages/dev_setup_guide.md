@@ -123,6 +123,8 @@ Download and install 1 of the following:
 
 * Install zsh
 ```bash
+sudo apt-get update && sudo apt-get upgrade
+
 sudo apt install zsh
 
 chsh -s $(which zsh)
