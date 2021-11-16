@@ -86,8 +86,11 @@ namespace repeatStringXTimes
    {  
      static void Main(string[] args)  
      {  
-       string str = new StringBuilder("Welcome to C#! ".Length * 5).Insert(0, "Welcome to C#! ", 5).ToString();
-       Console.WriteLine(str);
+       Console.WriteLine("Welcome to C#");
+       Console.WriteLine("Welcome to C#");
+       Console.WriteLine("Welcome to C#");
+       Console.WriteLine("Welcome to C#");
+       Console.WriteLine("Welcome to C#");
      }  
    }  
 }
